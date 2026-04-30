@@ -12,13 +12,10 @@ makedepends=('binutils')
 options=('!debug')
 provides=('astrobox')
 
-#改用从Github仓库获取deb包，便于合并后续更新
+#从GitHub Releases下载deb包
 source=("https://github.com/CheongSzesuen/AstroBox-archLinux/releases/download/v${pkgver}/AstroBox_${pkgver}_amd64.deb")
-sha256sums=('5e71a5a44f4e0f8ab6ea7328f4c5a17f2f065a086c5616f83187d58bf346a48c')
-
-# 从GitHub Releases下载deb包(1.5.4)
-#source=("https://github.com/CheongSzesuen/AstroBox-archLinux/releases/download/v${pkgver}/AstroBox_${pkgver}_amd64.deb")
-#sha256sums=('7f55bd238bf15764872784cc2f2e218b126968f71bef6f8e2a25e0ee333523e1')
+#请更改为实际的sha256sum值
+sha256sums=('5e71a5a44f4e0f8ab6ea7328f4c5a17f2f065a086c5616f83187d58bf346a48c') 
 
 prepare() {
     cd "${srcdir}"
