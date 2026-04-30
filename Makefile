@@ -1,5 +1,5 @@
 # Makefile for AstroBox AUR package
-# Maintainer: WaiJade
+# Maintainer: WaiJade , wkk-dev
 
 .PHONY: build install update clean test check checksums help
 

@@ -11,6 +11,7 @@
 **维护者**: 
 - OrPudding
 - WaiJade
+- wkk-dev
 
 **状态**: 非官方包
 
